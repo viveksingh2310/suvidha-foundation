@@ -1,0 +1,109 @@
+.top-navbar{
+    margin-left:23%;
+    margin-top:-2rem!important;
+    /* color:white; */
+}
+.nav-button:hover {
+    border-bottom: 1px solid orange;
+    /* font-weight:bold; */
+    transition: all 0.5s ease-in-out;
+    font-style: italic;
+  
+  }
+  .heading{
+    position:relative;
+    top:-1px;
+    height:420px;
+    background-image:url("images/bg-image-privacy-policy.png");
+  }
+  .heading-text{
+margin-top:15%;
+margin-left:35%;
+font-size:67px;
+letter-spacing:7px;
+font-family:'Montserrat';
+font-weight:800;
+/* text-decoration: underline; */
+}
+.para-div{font-family:'Montserrat';
+  margin-top:50px;
+  color:darkblue;
+  width:80vw;
+  margin-left:10%;
+  text-align:justify;
+}
+.para-div h2{
+  margin:20px 0px;
+  text-decoration:underline;
+  /* text-underline-offset: 1px; */
+  text-decoration-thickness: 2px;;
+}
+.para-div ul{
+  margin:10px 0px;
+}
+/*footer section starting*/
+
+.footer-section{
+  background-color:rgb(56, 55, 54);
+  height:100vh;
+  width:100vw;
+}
+.footer-section-inner-container{
+display:flex;
+margin-top:7%;
+justify-content:center;
+  height:50%;
+  width:100vw;
+}
+.f-sec-inner-item{
+  background-color:rgb(56, 55, 54);
+  color:white;
+}
+
+.f-sec-inner-item+.col-4{
+  width:900px;
+  background-color:#ff8c00;
+}
+.f-sec-inner-item+.col-3{
+  width:70px;
+}
+.f-sec-inner-item+.col-3{
+width:70px;
+}
+.certificate-list{
+  margin-top:70px;
+  list-style: none;
+}
+.certificate-list li{
+  margin:30px -15px;
+  /* font-size:large; */
+  
+}
+.certificate-list li a{
+  text-underline-offset: 4px;
+  text-decoration: none;
+  color:white;
+}
+.footer-section-inner-container div h1{
+  color:#ff8c00;
+}
+.certificate-list li a:hover{
+text-decoration:underline;
+}
+.usefullink-list{
+list-style:none;
+margin-top:70px;
+}
+.usefullink-list li a:hover{
+text-decoration:underline;
+}
+.usefullink-list li{
+margin:20px -20px;
+}
+.usefullink-list li a{ 
+text-decoration:none;
+color:white;
+/* font-size:lar; */
+}
+
+/*footer section ending*/

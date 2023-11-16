@@ -1,0 +1,204 @@
+.social-icons-top-row>div>a>i {
+    color: var(--orange-color)
+}
+body{
+    font-family:Montserrat;
+}
+
+:root {
+    --orange-color: #ff8c00;
+    --dark-orange-color: #fe00005e;
+    --dark-color: #4e4e4e;
+    --white-color: #f0c8c8;
+    --green-color: #12ae19;
+    --color1: #28c81d5f;
+    --color2: #ffff0555;
+    --light-bg-color: #fbedd2;
+}
+
+
+.top-navbar>div>a:hover {
+    color: red;
+}
+
+.nav-button {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    border-bottom: 1px solid orange;
+    /* font-weight:bold; */
+    font-style: italic;
+
+}
+
+#main-container-image-section {
+    height: 1000px;
+    /* width:100%; */
+    overflow: hidden;
+    background-color: red;
+}
+/* .main-container{
+    margin-top:400px;
+} */
+.section-main-heading {
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+
+    margin-left: 40%;
+    font-weight: bolder;
+    text-shadow: 10px 10px 35px #5f2801;
+}
+
+.mini-logo {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.internship-main-heading {
+    display: inline-block;
+}
+
+
+
+/*Main heading*/
+.jumbo-heading {
+    font-size: 68px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-weight: 900;
+    /* line-height: 90px; */
+    /* display: inline-block; */
+}
+
+.m-head-image {
+    display: inline-block;
+    /* margin-top: -100px; */
+    position: absolute;
+    height:82.36%;
+    width:48.67%;
+    top: 130px;
+    right: -20px;
+}
+/*main heading ending*/
+/* center quote start*/
+.center-quote{
+    /* background-color:red; */
+    height:82vh;
+}
+.fa-quote-left{
+    font-size:100px;
+    color:black;
+    margin-bottom:30px;
+}
+.fa-quote-right{
+    font-size:100px;
+    color:black;
+    margin-top:30px;
+    margin-left:400px;
+}
+.center-quote-img{
+    align-items: center;
+    height:100px;
+    width:100px;
+    object-position: center;
+    border-radius:50%;
+}
+.rtr{
+ height:350px;
+ width:430px;
+}
+/* center quote end*/
+/*why to work with us start*/
+.why-to-work{
+    /* background-color:red; */
+    height: 100vh;
+    background-image:url("images/why-to-work-bg-image1.png");
+    background-attachment:fixed;
+}
+.why-work-inner-container{
+    display:flex;
+    flex-direction:column;
+}
+.why-work-para{
+    /* background-color:red; */
+    height:250px;
+    font-size:xx-large;
+    margin-top:100px;
+}
+.why-work-para b{
+    color:rgb(185, 0, 0);
+}
+
+/*why to work with us end*/
+/*one-review seciton starting*/
+
+
+/*one-review seciton end*/
+/*apply now section*/
+.apply-now-section{
+    background-color:var(--orange-color);
+    height:100vh;
+    margin-top:100px;
+}
+.apply-now-section .btn{
+    text-align:center;
+}
+.apply-now-section h1{
+    text-align: center;
+    padding-top:100px;
+    font-size: 72px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-weight: 900;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    height:80px;
+    width:500px;
+    padding: 0.95rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+margin-left:30%;
+margin-top:15%;
+  }
+  .btn:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 3, 3);
+    z-index: -2;
+  }
+  .btn:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:white;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .btn:hover {
+    color:black;
+  }
+  .btn:hover:before {
+    width: 100%;
+  }
+  
+
